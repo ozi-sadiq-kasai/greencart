@@ -1,0 +1,106 @@
+.navbar {
+  border-bottom: 1px solid #f8f8f8;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.navbar img {
+  flex: 1;
+  max-height:40px;
+}
+.nav-links {
+  flex: 2;
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-links li {
+  display: flex;
+  align-items: center;
+}
+.admin {
+  border: 1px solid rgb(230, 224, 224);
+  padding: 5px 15px;
+  background-color: transparent;
+  border-radius: 20px;
+}
+.search {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.search input {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.search img {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+.cart {
+  position: relative;
+}
+.cart img {
+  width: 25px;
+}
+.tab {
+  position: absolute;
+  bottom: 15px;
+  left: 17px;
+  color: white;
+  background-color: #4fbf8b;
+  padding: 2px;
+  border-radius: 40%;
+}
+
+.nav-right {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.login {
+  padding: 8px 32px;
+  border-radius: 1rem;
+  background-color: #4fbf8b;
+  color: white;
+}
+.menu {
+  display: none;
+
+}
+
+/* QUERIES */
+
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .navbar img {
+    flex: 0;
+    max-height: 30px;
+  }
+  .login {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-right {
+    flex: 0;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  .menu {
+    display: block;
+  }
+}
