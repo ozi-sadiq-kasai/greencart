@@ -1,0 +1,40 @@
+.categories{
+    margin-top: 2.5rem;
+}
+.category-list{
+    list-style-type:none ;
+}
+.categories h2{
+    padding: 1rem 0;
+}
+
+@media (max-width: 425px) {
+.category-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items: center;
+} 
+.category-list li{
+    width: 60%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    border: 1px solid red;
+       /* padding: 1rem 0;  */
+}
+.category-list li img{
+    width: 50%;
+    height: 50%;
+    border: 1px solid red;
+    object-fit: cover;
+}
+.category-list a{
+border: 1px solid blue;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+}
