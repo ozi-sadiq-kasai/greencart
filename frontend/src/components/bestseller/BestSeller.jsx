@@ -18,11 +18,11 @@ const BestSeller = () => {
                 <p>{item.category}</p>
                 <h3>{item.name}</h3>
               </div>
-              <div className="stars" style={{ display: 'flex', alignItems: 'center' }}>
+              <div className="stars" >
                 {[...Array(4)].map((_, i) => (
-                  <img key={`filled-${i}`} src={assets.star_icon} alt="star" style={{ width: '15px', height: '15px', objectFit: 'contain' }} />
+                  <img key={`filled-${i}`} src={assets.star_icon} alt="star"  />
                 ))}
-                <img key="dull" src={assets.star_dull_icon} alt="star" style={{ width: '15px', height: '15px', objectFit: 'contain' }} />
+                <img key="dull" src={assets.star_dull_icon} alt="star" className='dull-star'/>
               </div>
               <div className="best-price">
                 <div className='prices'>
