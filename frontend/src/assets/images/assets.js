@@ -201,6 +201,70 @@ export const features = [
   },
 ];
 
+export const bestSellers = [
+  {
+    id: 1,
+    name: "Potato 500g",
+    price: 25,
+    offerPrice: 20,
+    image: potato_image_1,
+    description: [
+      "Fresh and organic",
+      "Rich in carbohydrates",
+      "Ideal for curries and fries",
+    ],  
+  },
+  {
+    id: 2,
+    name: "Tomato 1 kg",
+    price: 40,            
+    offerPrice: 35,
+    image: tomato_image,
+    description: [
+      "Juicy and ripe",   
+      "Rich in Vitamin C",
+      "Perfect for salads and sauces",  
+      "Farm fresh quality", 
+    ],  
+  },
+  {
+    id: 3,
+    name: "Carrot 500g",
+    price: 30,
+    offerPrice: 28,
+    image: carrot_image,
+    description: [
+      "Sweet and crunchy",
+      "Good for eyesight",
+      "Ideal for juices and salads",
+    ],  
+  },
+  {
+    id: 4,
+    name: "Spinach 500g",
+    price: 18,
+    offerPrice: 15,
+    image: spinach_image_1,
+    description: [
+      "Rich in iron",
+      "High in vitamins",
+      "Perfect for soups and salads",
+    ],  
+  },
+  {
+    id: 5,
+    name: "Onion 500g",
+    price: 22,
+    offerPrice: 19,
+    image: onion_image_1,
+    description: [
+      "Fresh and pungent",
+      "Perfect for cooking",
+      "A kitchen staple",
+    ],  
+  }
+]
+
 export const dummyProducts = [
   // Vegetables
   {
@@ -209,7 +273,8 @@ export const dummyProducts = [
     category: "Vegetables",
     price: 25,
     offerPrice: 20,
-    image: [potato_image_1, potato_image_2, potato_image_3, potato_image_4],
+    // image: [potato_image_1, potato_image_2, potato_image_3, potato_image_4],
+    image: [potato_image_1],
     description: [
       "Fresh and organic",
       "Rich in carbohydrates",
