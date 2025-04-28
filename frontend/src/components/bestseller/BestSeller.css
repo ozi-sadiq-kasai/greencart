@@ -87,7 +87,7 @@
   .best-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content:left;
+    justify-content: left;
     align-items: center;
     gap: 10px;
   }
@@ -96,15 +96,13 @@
   }
 }
 
-@media (min-width:1440px){
+@media (min-width: 1024px) {
   .best-list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items: center;
-    gap: 10px;
+    justify-content: start;
+    gap: 20px;
   }
   .best-list li {
-    width: 250px;
+    width: 200px;
   }
 }

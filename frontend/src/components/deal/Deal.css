@@ -1,0 +1,40 @@
+.deal{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;  
+}
+.deal-header{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.deal-header h2{
+    color: #364153;
+}
+
+.deal-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deal-form input{
+    padding: 10px 0;
+    width: 50%;
+    outline: none;
+}
+.deal-form button{
+    padding: 12px 32px;
+    border-radius:0 6px 6px 0 ;
+    border: none;
+    background-color: #4fbf8b;
+    color: white;
+}
+
+@media (max-width:425px){
+.deal-header{
+    width: 100%;
+}
+}
