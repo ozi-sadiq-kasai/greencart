@@ -12,6 +12,12 @@
 }
 .deal-header h2{
     color: #364153;
+    font-size: 36px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.deal-header p{
+    color: #929ba8;
 }
 
 .deal-form{
@@ -21,7 +27,7 @@
     align-items: center;
 }
 .deal-form input{
-    padding: 10px 0;
+    padding: 10px ;
     width: 50%;
     outline: none;
 }
