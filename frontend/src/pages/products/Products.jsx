@@ -5,7 +5,8 @@ import { dummyProducts } from '../../assets/images/assets';
 const Products = () => {
 
   return (
-    <div>Products
+    <div>
+      <h2>All Products</h2>
       <PriceCard dummyProducts={dummyProducts}/>
     </div>
   );
