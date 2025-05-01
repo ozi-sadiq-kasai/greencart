@@ -14,7 +14,7 @@ const Navbar = () => {
       <img src={assets.logo} alt="" />
       <ul className="nav-links">
         <li className="admin">
-          <Link to="admin">Seller Dashboard</Link>
+          <Link to="/seller">Seller Dashboard</Link>
         </li>
         <li>
           <Link to="/">Home</Link>

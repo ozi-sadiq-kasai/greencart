@@ -1,0 +1,89 @@
+.seller {
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    /* flex: 1; */
+    background-color: #f7f7f7;
+    padding: 1rem 3rem;
+  }
+  
+  .sidebar-products {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sidebar-products img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  form {
+    padding: 2rem;
+    border-left: 1px solid #ddd;
+    max-width: 70%;
+  }
+  
+  hr {
+    width: 0.5px;
+    height: auto;
+    background-color: #ddd;
+    border: none;
+    margin: 0;
+    align-self: stretch;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .upload-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px dashed #aaa;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+  }
+  
+  .price-section {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  button {
+    padding: 0.7rem 1.5rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
