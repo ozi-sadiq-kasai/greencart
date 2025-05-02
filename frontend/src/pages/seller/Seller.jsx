@@ -19,7 +19,12 @@ const Seller = () => {
       <div className='sidebar'>
         <div className='sidebar-products'>
           <img src={assets.add_icon} alt="" />
-          <a href="/addProducts">Add Products</a>
+          <a
+            href="/addProducts"
+            id="addproducts"
+          >
+            Add Products
+          </a>
         </div>
         <div className='sidebar-products'>
           <img src={assets.product_list_icon} alt="" />
